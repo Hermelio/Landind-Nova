@@ -1,0 +1,1376 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+*{  
+    margin:0;
+    padding: 0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+ .content{
+
+    position: relative;
+    width: 100%;
+    max-width: 1284px;
+    display: block;
+    float: left;
+    margin: 11px 60px;
+    width: 100%;
+ }
+.mn-top{
+
+    position: relative;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.containner{
+
+    position: relative;
+    width: 100%;
+    max-width: 1900px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.img-tp{ 
+
+    width: 140px;
+    height: 61px;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.imagem-top1{
+
+    float: left;
+    display: block;
+    width: 50%;
+    margin-top: 1%;
+    margin: 0 auto;
+
+}
+.menu{
+
+    float: right;
+    width: 50%;
+    margin-top: 3%;
+
+
+}
+
+.top{ width: 100%;}
+ul{ 
+    
+    list-style: none;
+    position: relative;
+    
+}
+ li{
+
+  font-size: 20px;    
+  cursor: pointer; 
+  position: relative;
+
+} 
+.menu1{
+    margin-top: 1%;
+    border: 1px solid black;
+    width: 121px;
+    border-radius: 8px;
+    height: 30px;
+}
+.menu2{
+    position: absolute;
+    width:  150px;
+    height: 150px;
+    background-color: #fbfbfb;
+    display: none;
+}
+.btn-login {
+  background: #2f7fd6;
+  color: #FFFFFF;
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+}
+.bandeira{
+    background-image:url(assets/img/brasil.png);background-repeat:no-repeat;
+    padding-left:23px;     /* Largura da imagem possui 20px */
+    padding-top:5px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */
+    height:20px;                                               /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */
+} 
+.smb span{float: left;}
+
+.menu1 span{
+
+    float: left;
+    margin-right: 10px;
+
+}
+
+
+.brasil{
+    margin-right: 10px;
+    float: left;
+    width: 28px;
+
+}
+.sbm2{
+
+    float: left;
+    text-align: center;
+    margin-top: -12px;
+
+}
+
+.owl-theme .owl-nav {display: none; }
+
+.menu select{
+    margin-left: 50%;
+    margin-top: 4%;
+}
+
+.box-flag {
+    position: relative;
+    max-width: 240px;
+    float: right;
+    padding: 5px;
+    margin-right: 35vh;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.content-flag {
+    float: left;
+    width: 100%;
+    display: none;
+    height: auto;
+    top: 47px;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    background: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 4px 5px #615f5f;
+} 
+
+.btn-select-flag {
+
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.btn-select-flag1 {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.btn-select-flag2 {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.btn-select-flag3 {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.btn-select-flag4 {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.flagacu{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.flagacu1{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;    
+}
+
+.novafleg{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+
+.novaflag0{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.novafleg1{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    float: right;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+
+.novaazul span:not(.titulos){
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.novaflag0--open{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.flagacu--open{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);    
+}
+.novafleg1--open{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.novafleg--open{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.btn-select-flag--open {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.btn-select-flag1--open{
+
+     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.btn-select-flag2--open{
+
+     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.btn-select-flag3--open{
+
+     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.btn-select-flag4--open{
+
+     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.box-flag__text.x-hide {display: none;}
+
+.box-flag__text {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+}
+.box-flag .box-flag__text[data-id="icon-pt"]:before {
+    content: '';
+    background: url('../img/brasil.png') no-repeat center;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    margin-right: 8px;
+}
+.box-flag .box-flag__text[data-id="icon-es"]:before {
+    content: '';
+    background: url('../img/Espanha.png') no-repeat center;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    margin-right: 8px;
+}
+.box-flag .box-flag__text[data-id="icon-en"]:before {
+    content: '';
+    background: url('../img/eua.png') no-repeat center;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    margin-right: 8px;
+
+}
+.box-flag .box-flag__text[data-id="icon-dt"]:before {
+    content: '';
+    background: url('../img/Deutsch.png') no-repeat center;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    margin-right: 8px;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -20%;       
+}
+
+.elipse{
+    position: absolute;
+    z-index: 1;
+    bottom: -6px;
+
+}
+.elipse-img{
+        width: 100%;
+}
+.owl-carousel {
+
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.latam{
+    margin: auto;
+    float: left;
+    width: 50%;
+
+}
+.logo-latam{
+    width: 200px;
+    margin-left: 24%;
+}
+.logo-latam1{
+    width: 200px;
+    margin-left: 0%;
+}
+h1{
+    float: right;
+    text-align: center;
+    color: #023dab;
+}
+.latam1{
+
+    width: 50%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+}
+.assunt{
+    width: 100%;
+    text-align: center;
+}
+.bolha{
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.bola{
+    width: 100%;
+}
+.bolhas__1{
+    width: 100%; 
+    font-size: ;
+    width: 68%;
+    margin-left: 14%;
+    text-align: center;
+   height: 100%;
+}
+.bolhas{
+    position: absolute;
+    top: 0px;  
+    max-width: 75%;
+}
+
+.corpo{width: 100%;}
+.corpo h1{
+    margin-top: 10%;
+    text-align: center;
+    margin-left: ;
+    float: left;
+    margin-left: -9%;
+    width: 100%;
+} 
+ .corpo p{
+    font-size: 14px;
+    margin-left: 21.8%;
+    text-align: left;
+    font-family: sans-serif;
+    display: block;
+    padding: 1px;
+    margin-bottom: 1%;
+    margin-right: 32%;
+    color: #716c6c;
+} 
+ h2.titulo{
+    display: block;
+    display: block;
+    margin-left:  -13.5%;
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 2%;
+    color: #0505ca;
+    font-family: sans-serif;
+        margin-top: 4%;
+}
+
+h2.titulo1{
+    display: block;
+    margin-left: -15.5%;
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 2%;
+    color: #0505ca;
+    font-family: sans-serif;
+        margin-top: 4%;
+}
+.div-blue{
+    border-radius: 8px;
+    background-color: #0707bb;
+    padding: 1px -3px;
+    float: left;
+    width: 66%;
+    margin-left: 21%;
+    margin-top: 3%;
+    display: none ;
+}
+.saldo{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 5%;
+
+
+}
+.containner-0{
+    position: relative;
+    width: 100%;
+    max-width: 1900px;
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: #dedada7d;
+    padding: 80px 0;
+}
+.what{
+    font-size: 44px;
+    text-align: center;
+    margin-left: -8%;
+    color: #0000c1;
+    margin-bottom: 4%;
+}
+.saldo-kit{
+
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+}
+.out{
+    text-align: center;
+    margin-left: 24%;
+}
+.oit{
+    color: #0d09bf;
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.slid1{
+    font-size: 23px;
+    margin-top: 3%;
+    color: #2907dc;
+    text-align: left;
+    border: 1px solid #827c7c;
+    border-radius: 8px;
+    margin-left: 21%;
+    padding: 0px 15px;
+    margin-right: 25%;
+    font-family: sans-serif;
+    position: relative;
+}
+.btn-select-flag1{
+    width: 20px;
+    height: 20px;
+    left: 96%;
+    top: 3px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;    
+}
+.slid2{
+    display: none;
+    position: absolute;
+    left: 22%;
+    right: 24%;
+    top: 50px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #565555;
+}
+.sid-saldo{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.oito{
+    list-style: none;
+    position: relative;
+}
+ul .mama{
+
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion {
+  margin: 0px;
+}
+.accordion dt {
+    font-size: 23px;
+    margin-top: 3%;
+    color: #2907dc;
+    cursor: pointer;
+    text-align: left;
+    border: 1px solid #827c7c;
+    border-radius: 8px;
+    margin-left: 21%;
+    padding: 0px 15px;
+    margin-right: 25%;
+    font-family: sans-serif;
+    position: relative;
+ 
+}
+ dd.classe1{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+ }
+  dd.classe2{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+ }
+  dd.classe3{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+ }
+.bolsa0{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+ .bolsa{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+ }
+ .acumulo{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+ }
+ .acumulo1{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%; 
+ }
+ .bolsa1{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;  
+ }
+  dd.classe4{
+    display: none;
+    border-top: 0;
+    font-size: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #505050;
+    margin-left: 22%;
+    margin-right: 25%;
+    margin-top: 2%;
+ }
+
+.accordion dt a, .accordion dd a {
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+.accordion dd {
+    border-top: 0;
+    font-size: 15px;
+}
+.accordion dd:last-of-type {
+
+  position: relative;
+  top: -1px;
+}
+.aviao{
+    text-align: center;
+    margin-left: 23%;
+    margin-top:  3%;
+}
+.titulos{
+    font-size: 20px;
+}
+.novaazul{
+
+    background-color: blue;
+    color: #fff!important;
+
+}
+.ajuste{
+        position: absolute;
+}
+.fique{
+    max-width: 80%;
+    margin-top: 38%;
+    margin-left: 10%;
+}
+
+.levar{
+    max-width: 80%;
+    margin-left: 209%;
+    margin-top: 36%;
+}
+.breve{
+    max-width: 80%;
+    margin-left: 245%;
+    margin-top: 88%;
+}
+.bolinhas{
+    margin-left: 31%;
+}
+.levar1{
+    margin-top: 10%;
+    margin-left: 219%;
+    max-width: 70%;
+}
+
+.bolha .bolha--change[data-id="icon-dt"]:before {
+    content: '';
+    background: url('../img/alemao/01-ale.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+.bolha .bolha--change[data-id="icon-pt"]:before {
+    content: '';
+    background: url('../img/portugues/01-por.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+
+.bolha .bolha--change1[data-id="icon-en"]:before {
+    content: '';
+    background: url('../img/ingles/01-ing.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+
+.bolha .bolha--change1[data-id="icon-es"]:before {
+    content: '';
+    background: url('../img/espanhol/01-esp.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+
+.bolha .bolha--change1[data-id="icon-dt"]:before {
+    content: '';
+    background: url('../img/alemao/01-ale.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+.bolha .bolha--change1[data-id="icon-pt"]:before {
+    content: '';
+    background: url('../img/portugues/01-por.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+
+.bolha .bolha--change1[data-id="icon-en"]:before {
+    content: '';
+    background: url('../img/ingles/01-ing.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+
+.bolha .bolha--change[data-id="icon-es"]:before {
+    content: '';
+    background: url('../img/espanhol/01-esp.png') no-repeat center;
+    width: 411px;
+    height: 420px;
+    display: flex;
+    margin-left: 197%;
+    margin-top: 3%;
+
+}
+
+.bolha-withe {
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+.bolha--title{
+    font-family: unset;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 41px;
+    color: #ada8a8;
+    padding: 1.5px 39.9px;
+    margin-top: 18.2%;
+    line-height: 37px;
+}
+.bolha-sub{
+    text-align: center;
+    font-family: "Gotham";
+    color: #908f8c;
+    font-size: 20px;
+}
+.bolha--title1{
+    font-family: unset;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 41px;
+    color: #ada8a8;
+    padding: 28.5px 42.9px;
+    margin-top: 18.2%;
+    line-height: 37px;
+}
+.bolha-withe1 {
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 65%;
+    margin-top: 16%;
+}
+.bolha-withe3 {
+    z-index: 1;
+    position: absolute;
+    width: 332px;
+    height: 323px;
+    top: 0;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 65%;
+    margin-top: 14%;
+}
+.bolha--title3{
+    font-family: unset;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 41px;
+    color: #ada8a8;
+    padding: 5.5px 41.9px;
+    margin-top: 18.2%;
+    line-height: 37px;
+}
+.bolha-withe4 {
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 66%;
+    margin-top: 7%;
+}
+
+
+
+@media (max-width: 320px ){
+
+    .mn-top {
+        position: relative;
+        width: 100%;
+        font-size: 0;
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+}
+    .box-flag__text {
+        display: flex;
+        cursor: pointer;
+        text-decoration: none;
+        align-items: end;
+}
+    .menu {
+        display: flex;
+        width: 27%;
+        margin-top: 5%;
+        margin-right: 4%;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        flex-flow: column;
+}
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        position: absolute;
+        margin-left: 33%;
+        margin-top: -25%;
+        max-width: 100%;
+}
+    .content-flag{     
+
+        flex-direction: column;
+        font-size: 0;
+
+    }
+    .row {
+        width: 88%;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 15%;
+        margin: 42px 1px;
+}
+    .latam img {
+        width: 100%;
+        margin: 0;
+}
+    .latam1 img {
+        width: 100%;
+}
+    
+    .assunt {
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .latam {
+
+        margin: auto;
+        width: 100%;
+
+}
+    .latam1 {
+        width: 100%;
+        margin-bottom: 0;
+
+}
+    .content {
+        position: relative;
+        width: 100%;
+        max-width: 1284px;
+        display: block;
+        float: left;
+        margin: 11px 0;
+        width: 100%;
+}
+    .corpo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+}
+    h2.titulo {
+
+        text-align: -webkit-left;
+        display: block;
+        margin-left: 0;
+        margin-bottom: 2%;
+        color: #0505ca;
+        font-family: sans-serif;
+        margin-top: 5%;
+        justify-content: center;
+}
+    .corpo p {
+        font-size: 15px;
+        margin-left: 0;
+        width: 100%;
+        text-align: -webkit-auto;
+        font-family: sans-serif;
+        display: block;
+        padding: 1px;
+        margin-bottom: 8%;
+        margin-right: 0;
+        color: #716c6c;
+}
+    h2.titulo1 {
+        display: block;
+        text-align: left;
+        width: 100%;
+        font-size: 22px;
+        margin-bottom: 2%;
+        color: #0505ca;
+        font-family: sans-serif;
+        margin-top: 4%;
+        margin-left: 0;
+}  
+    .what {
+        font-size: 33px;
+        text-align: center;
+        color: #0000c1;
+        margin-left: 3%;
+        margin-bottom: 4%;
+}
+    .accordion {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+}
+    .accordion dt {
+        font-size: 10px;
+        margin-top: 4%;
+        color: #2907dc;
+        cursor: pointer;
+        border: 1px solid #827c7c;
+        border-radius: 8px;
+        font-family: sans-serif;
+        position: relative;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 10%;
+}
+    .aviao {
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 3%;
+        width: 54px;
+        height: 43px;
+}
+    .titulos {
+        font-size: 14.4px;
+}
+    .ajusta {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+}
+    .out {
+        text-align: center;
+        margin-left: 5%;
+        justify-content: space-between;
+        width: 54px;
+        height: 43px;
+}
+    .accordion dd {
+        border-top: 0;
+        font-size: 15px;
+        text-align: -webkit-match-parent;
+        margin: 0px 4%;
+
+}
+    .oit {
+        color: #0d09bf;
+        font-size: 17px;
+        font-family: sans-serif;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 18px 13px;
+        font-weight: bold;
+
+}
+    .img-tp {
+        width: 140px;
+        height: 61px;
+        margin-top: 3%;
+        margin-left: 0;
+}
+    .elipse-img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+    .novaazul span:not(.titulos) {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        display: none;
+}
+    .flagacu {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 70%;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+    }
+    .flagacu1 {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 61%;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+}
+    .novaflag0 {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+}
+    .novafleg {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 42px;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+}
+    .novafleg1 {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 54%;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+}
+    .btn-select-flag4 {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 47%;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+}
+    .btn-select-flag3 {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        float: right;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+}
+    .bolha-withe1 {
+        z-index: 1;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 65%;
+        margin-top: 6%;
+}
+    .bolha--title1 {
+        font-family: unset;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 11px;
+        color: #ada8a8;
+        padding: 5.5px 21.9px;
+        margin-top: 18.2%;
+        line-height: 12px;
+}
+    .bolha--title3 {
+        font-family: unset;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 11px;
+        color: #ada8a8;
+        padding: 5.5px 21.9px;
+        margin-top: 18.2%;
+        line-height: 12px;
+}
+    .bolha-withe3 {
+        z-index: 1;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 65%;
+        margin-top: 6%;
+}
+    .bolha-withe4 {
+        z-index: 1;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 65%;
+        margin-top: 6%;
+}
+   .bolha--title {
+        font-family: unset;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 11px;
+        color: #ada8a8;
+        padding: 5.5px 13.9px;
+        margin-top: 18.2%;
+        line-height: 10px;
+}
+   .bolha--title5 {
+        font-family: unset;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 11px;
+        color: #ada8a8;
+        padding: 5.5px 13.9px;
+        margin-top: 18.2%;
+        line-height: 10px;
+}
+    .bolha-withe {
+        z-index: 1;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 65%;
+        margin-top: 6%;
+}
+    .bolha-sub {
+        text-align: center;
+        font-family: "Gotham";
+        color: #908f8c;
+        font-size: 8px;
+}
+}
